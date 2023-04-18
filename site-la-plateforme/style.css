@@ -308,7 +308,108 @@
     font-weight: bold;
     font-size: 20px;
 }
-
+/* =============================================================== Contact ========================================== */
+.main-contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 auto;
+    background-color: #295e99;
+    flex-wrap: wrap;
+}
+.main-contact .text{
+    width: 460px;
+    padding: 30px 0;
+    line-height: 25px;
+}
+.text{
+    color: #ffff;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.text h3{
+    font-size: 25px;
+    color: #ec8c16;
+    margin: 15px 0;
+}
+.text p{
+    margin-bottom: 16px;
+}
+.main-contact .formulaire{
+    background-color: #ffff;
+    margin: 20px 0;
+    border-radius: 20px;
+    padding: 40px;
+}
+.formulaire h3{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.formulaire span{
+    display: inline-block;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.formulaire .groupe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0;
+    height: 35px;
+}
+.formulaire .groupe .champs{
+    width: 130px;
+    font-size: 16px;
+}
+.groupe .groupe2{
+    display: inline-block;
+    width: 47%;
+}
+.message{
+    height: 100px;
+}
+#message{
+    height: 70px;
+}
+#motif,#message{
+    width: 100%;
+}
+.btn-submit{
+    width: 100%;
+    background-color: #ec8c16;
+    border: 1px solid #ec8c16;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffff;
+    height: 50px;
+}
+.cond{
+    margin: 60px 0;
+}
+.carte h3{
+    font-size: 30px;
+    color: #2480ea;
+    margin-bottom:20px;
+}
+.carte{
+    width: 60%;
+    margin: 50px auto;
+    line-height: 30px;
+    font-size: 20px;
+}
+.carte address{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.graph{
+    margin: 10px;
+    width: 90%;
+}
 /* footer */
 .footer{
     width: 100%;
