@@ -410,6 +410,38 @@
     margin: 10px;
     width: 90%;
 }
+/* ========================================================== News =========================================== */
+.banier-news{
+    background-color:#295e99;
+    color: #ffff;
+    padding: 50px;
+}
+.banier-news h2{
+    color: #ec8c16;
+}
+.article-news{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 70px 12px;
+}
+.new{
+    width: 380px;
+    margin: 15px 0;
+    box-shadow: 1px 3px 2px 4px #f6f5fc;
+}
+.new p{
+    height: 200px;
+    padding: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.new:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    box-shadow: 1px 3px 10px 3px #b3b8c1;
+}
 /* footer */
 .footer{
     width: 100%;
