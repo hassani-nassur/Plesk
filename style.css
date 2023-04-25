@@ -164,3 +164,13 @@ body{
 .foot ul li{
     width: 300px;
 }
+.btn{
+    width: 100%;
+    background-color: #ec8c16;
+    border: 1px solid #ec8c16;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #ffff;
+    height: 50px;
+}
