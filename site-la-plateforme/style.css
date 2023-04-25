@@ -442,6 +442,74 @@
     transform: scale(1.01);
     box-shadow: 1px 3px 10px 3px #b3b8c1;
 }
+
+/* ======================================= Qui somme-nous  ===================================== */
+.presentation{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.presentation p{
+    width: 500px;
+    line-height: 25px;
+}
+.partenaire{
+    display:flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.membre,.certificats,.video {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+.nos-certificat{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+.membre div{
+    padding: 10px;
+}
+.membre h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.membre div a{
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+.certificats .certificat{
+    width: 250px;
+    margin: 2px;
+    font-size: 16px;
+}
+.certificat p{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: left;
+    line-height: 25px;
+}
+
+.video iframe{
+    width: 400px;
+    height: 250px;
+    margin: 30px;
+}
+
 /* footer */
 .footer{
     width: 100%;
@@ -507,3 +575,5 @@
     display: block;
     width: 70%;
 }
+
+/* ================== media queris ==================*/
